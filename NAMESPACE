@@ -3,6 +3,11 @@ import(methods, RCurl)
 importFrom(RJSONIO, toJSON, fromJSON)
 importFrom(utils, browseURL)
 
+## EXPORT FUNCTIONS
+export(
+sourceGist
+)
+
 ## EXPORT METHODS
 exportMethods(
 getRepo,
